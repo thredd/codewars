@@ -1,5 +1,9 @@
-// Training JS #17: Methods of String object--indexOf(), lastIndexOf() and search()
+// Training JS #17: M
 
-function firstToLast(str,c){
-    return (str.indexOf(c) < 0) ? -1 : str.lastIndexOf(c) - str.indexOf(c)
+function SafeInteger(n) {
+    if(n <= 9007199254740990){
+      return true
+    } else {
+      return false
+    }
   }
