@@ -1,5 +1,15 @@
-// Is it a palindrome?
+// Super Duper Easy
 
-function isPalindrome(x) {
-    return x.toLowerCase().split('').reverse().join('') === x.toLowerCase()
+function problem(x){
+    return typeof x !== 'number' ? 'Error' : x * 50 + 6
+  }
+
+// or...
+
+function problem(x){
+    if(typeof(x) === 'number'){
+      return x * 50 + 6
+    } else{
+      return 'Error'
+    }
   }
