@@ -6,6 +6,6 @@ function automorphic(n){
     if(String(n) === String(squared).slice(-length)){
       return 'Automorphic'
     } else {
-      return 'Not!!'
+      return 'Not!!!'
     }
   }
